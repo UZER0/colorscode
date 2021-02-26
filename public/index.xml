@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo-Octopress Demo</title>
+    <link>http://colorscode.net/</link>
+    <description>Recent content on Hugo-Octopress Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 21:14:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://colorscode.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Second Post5</title>
+      <link>http://colorscode.net/posts/my-second-post5/</link>
+      <pubDate>Tue, 08 Sep 2020 21:14:37 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Post4</title>
+      <link>http://colorscode.net/posts/my-second-post4/</link>
+      <pubDate>Tue, 08 Sep 2020 21:14:35 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Post3</title>
+      <link>http://colorscode.net/posts/my-second-post3/</link>
+      <pubDate>Tue, 08 Sep 2020 21:14:33 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Post2</title>
+      <link>http://colorscode.net/posts/my-second-post2/</link>
+      <pubDate>Tue, 08 Sep 2020 21:14:31 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Post1</title>
+      <link>http://colorscode.net/posts/my-second-post1/</link>
+      <pubDate>Tue, 08 Sep 2020 21:14:29 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Post</title>
+      <link>http://colorscode.net/posts/my-second-post/</link>
+      <pubDate>Tue, 08 Sep 2020 21:12:51 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-second-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://colorscode.net/posts/my-first-post/</link>
+      <pubDate>Tue, 08 Sep 2020 20:54:24 +0800</pubDate>
+      
+      <guid>http://colorscode.net/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
