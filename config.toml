@@ -1,4 +1,4 @@
-baseurl = "http://coloscode.gitee.io/colorscode"
+baseurl = "https://colorscode.net"
 languageCode = "en-us"
 title = "Hugo-Octopress Demo"
 theme = "Hugo-Octopress"
