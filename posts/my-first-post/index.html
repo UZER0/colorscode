@@ -28,7 +28,7 @@
   
 
   
-  <link href="http://colorscode.net/favicon.png" rel="icon">
+  <link href="https://colorscode.net/favicon.png" rel="icon">
 
   
   
@@ -52,7 +52,7 @@
 <header role="banner">
 <hgroup>
   
-  <h1><a href="http://colorscode.net/">Hugo-Octopress Demo</a></h1>
+  <h1><a href="https://colorscode.net/">Hugo-Octopress Demo</a></h1>
     <h2>Hugo-Octopress demo site - subtitle.</h2>
 </hgroup></header>
 
@@ -63,7 +63,7 @@
   <select onchange="location = this.value;">
     <option value="">Navigate…</option>
       
-        <option value="http://colorscode.net/">» 博客</option>
+        <option value="https://colorscode.net/">» 博客</option>
       
   </select>
 </fieldset>
@@ -73,7 +73,7 @@
   
   
     
-      <li><a href="http://colorscode.net/" title="博客">博客</a></li>
+      <li><a href="https://colorscode.net/" title="博客">博客</a></li>
     
   
 </ul>
@@ -81,7 +81,7 @@
 <ul class="subscription">
   
     
-        <a href="http://colorscode.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+        <a href="https://colorscode.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
     
   
 </ul>
@@ -90,7 +90,7 @@
   <form action="https://www.google.com/search" method="get" target="_blank">
     <fieldset role="search">
       <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-      <input type="hidden" name="q" value="site:http://colorscode.net/" />
+      <input type="hidden" name="q" value="site:https://colorscode.net/" />
     </fieldset>
   </form>
 
@@ -107,7 +107,7 @@
 
 <header>
   <p class="meta">Sep 8, 2020
-     - 0 minute read 
+     - 4 minute read 
     
 
     
@@ -122,7 +122,34 @@
           
           
           
-          
+          <h1 id="citing-with-zettlr-">Citing with Zettlr 💬</h1>
+<p>In this final guide, we will dive into how you can automatically cite using Zettlr! If you have been using the Zotero plugin for Word before (or even the Citavi plugin), rest assured: It works almost the same, you only have much more freedom to adapt the citations to your needs!</p>
+<p>To begin citing with Zettlr, you’ll need to set up a references database, <a href="https://docs.zettlr.com/en/academic/citations/">which we describe in our documentation</a>. For the purposes of this tutorial, we have already prepared a small database which’ll cover everything you need to know! Let’s load it! In the tutorial directory, there is a small file called “references.json”. It contains some references that Zettlr can cite. To load it, first head over into the preferences and into the tab “Export.” Once there, navigate to the file using the file browser of the references database-field, and save the preferences.</p>
+<h2 id="your-first-citation-">Your First Citation 🎓</h2>
+<p>Zettlr will immediately load the file and you’re able to cite. Let’s have a look at the following blockquote, which certainly needs a citation:</p>
+<blockquote>
+<p>Es findet hier also ein Widerstreit statt, Recht wider Recht, beide gleichmäßig durch das Gesetz des Warenaustauschs besiegelt. <strong>Zwischen gleichen Rechten entscheidet die Gewalt.</strong> Und so stellt sich in der Geschichte der kapitalistischen Produktion die Normierung des Arbeitstags als Kampf um die Schranken des Arbeitstags dar — ein Kampf zwischen dem Gesamtkapitalisten, d.h. der Klasse der Kapitalisten, und dem Gesamtarbeiter, oder der Arbeiterklasse.</p>
+</blockquote>
+<p>This is the famous “between equal rights, force decides”-quote from Karl Marx in his <em>Capital</em>, volume 1. Let’s now add this citation. To cite, you need to encapsulate your citation in square brackets and include a citation-key as well as optional prefixes and suffixes. The minimal form of a citation hence is <code>[@CiteKey]</code>, and the maximal form is <code>[Prefix @CiteKey, Locator Suffix]</code>. To indicate page numbers, sections, chapters, etc., place them directly after the citation-key, e.g.: <code>[@CiteKey, pp. 23-56]</code>. At the core of Zettlr, there is a mighty engine that is capable of untangling what you write and extract common sections such as pages (<code>p.</code> and <code>pp.</code>), chapters (<code>chapter</code>) and sections (<code>sec.</code> or <code>§</code>), even in multiple languages!</p>
+<p>Getting back to our citation, which still needs its reference, can you manage to add a citation behind the blockquote that renders as <code>(Marx 1962, 23: 249)</code>?</p>
+<h2 id="the-references-list-">The References List 💻</h2>
+<p>As soon as you write longer papers and even books, you may lose oversight over what you’ve already quoted, and which things still need to find their way into your paper. Zettlr is capable of displaying the full list of your references in the sidebar. Open it now by clicking the paper clip icon again, and have a look at the “References”-section. You will notice that the book is visible there — and as you continue to include references, this list will grow!</p>
+<p>In order to export these files, make sure to also have <code>pandoc-citeproc</code> installed, which is a small extra-program for Pandoc that can parse such citations during export.</p>
+<blockquote>
+<p>Note that from Pandoc version 2.11 on, citeproc comes bundled with Pandoc, so you don&rsquo;t need to install it in an extra step.</p>
+</blockquote>
+<h2 id="final-thoughts-">Final Thoughts 🔥</h2>
+<p>This concludes our short introduction to Zettlr. You’re good to go!</p>
+<p>One last thing we’d like to mention is the great Zettlr community. We could never maintain such a great tool without the help of dozens of highly motivated people who welcome new people, help with questions and suggest changes to the app itself. Please consider joining the community on as many platforms as possible and make your voice heard! One thing you can certainly estimate is whether or not this tutorial that you just completed is good or needs some changes. If you have improvement suggestions, we are always happy to hear you out!</p>
+<p>You can join our community over here:</p>
+<ul>
+<li><a href="https://forum.zettlr.com/">On the forum</a></li>
+<li><a href="https://www.reddit.com/r/Zettlr/">On our subreddit</a></li>
+<li><a href="https://github.com/Zettlr/Zettlr/">On GitHub</a></li>
+</ul>
+<p><strong>Enjoy working with Zettlr!</strong></p>
+<p><img src="./zettlr.png" alt="zettlr.png"></p>
+
         </div>
         
 
@@ -141,7 +168,7 @@
     
 
     
-      <a class="basic-alignment right" href="http://colorscode.net/posts/my-second-post/" title="My Second Post">My Second Post</a>
+      <a class="basic-alignment right" href="https://colorscode.net/posts/my-second-post/" title="My Second Post">My Second Post</a>
     
   </p>
   
@@ -203,11 +230,11 @@ New line after two spaces.
         
         
           <li>
-            <a href="http://colorscode.net/categories/" title="Categories" >Categories</a>
+            <a href="https://colorscode.net/categories/" title="Categories" >Categories</a>
           </li>
         
           <li>
-            <a href="http://colorscode.net/tags/" title="Tags" >Tags</a>
+            <a href="https://colorscode.net/tags/" title="Tags" >Tags</a>
           </li>
         
           <li>
@@ -237,7 +264,7 @@ New line after two spaces.
 </div>
 
     <footer role="contentinfo">
-      <p>Copyright &copy; 2021 Author Name - <a href="http://colorscode.net/license/">License</a> -
+      <p>Copyright &copy; 2021 Author Name - <a href="https://colorscode.net/license/">License</a> -
         <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
       </p>
     </footer>
